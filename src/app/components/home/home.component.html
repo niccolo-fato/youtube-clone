@@ -1,0 +1,29 @@
+<div class="wrapper">
+    <div class="chips one">
+        Everyone
+    </div>
+    <div class="chips" *ngFor="let category of categories">
+       <span> {{ category.name }} </span> 
+    </div>
+</div>
+<div class="videos">
+    <div class="videos-container">
+        <div class="video" *ngFor="let video of videos">
+            <div class="video-thumbnail">
+                <img src="{{ video.poster }}" routerLink="/player/{{ video.id }}">
+            </div>
+            <div class="video-details">
+                <div class="author">
+                    <img src="{{ video.authorimg }}" alt="image" />
+                </div>
+                <div class="title">
+                    <h3>
+                        {{ video.title }}
+                    </h3>
+                    <a href="">{{ video.author }}</a>
+                    <span>{{ video.visual }} • {{ video.date }} </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

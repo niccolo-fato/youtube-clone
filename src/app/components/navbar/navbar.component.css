@@ -1,0 +1,383 @@
+/*Start navbar*/
+.header {
+  background: rgb(255, 255, 255, 0.97);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 0 40px;
+  height: 82px;
+  position: fixed;
+  z-index: 2;
+  border-bottom: 1px solid #d3d3d3;
+}
+.material-icons {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 40px;
+}
+
+/*Start header-left of the navbar*/
+.header-left {
+  width: 9%;
+  display: flex;
+  justify-content: flex-start;
+}
+.menu {
+  margin-top: 6.5%;
+  cursor: pointer;
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 23px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px auto;
+}
+.header-left img {
+  padding: 4.5% 0.5% 3% 2%;
+  width: 130px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+/*End header-left of the navbar*/
+
+/*Start header-middle of the navbar*/
+.header-middle {
+  width: 57%;
+  display: flex;
+  justify-content: center;
+}
+.header-middle input {
+  border-style: transparent;
+  border: 1px solid gray;
+  outline: none;
+  width: 75%;
+  height: 45px;
+  padding-left: 2.5%;
+  margin-top: 1%;
+  margin-left: 20%;
+  font-size: large;
+  border-right-width: 0%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.header-middle button {
+  width: 13%;
+  height: 45px;
+  margin-top: 1%;
+  border-width: 0px 0px 0px 0px;
+  border: 1px solid gray;
+  border-left: transparent;
+  color: #f8f8f8;
+  padding: 0%;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header-middle button:hover {
+  background-color: #ebe9e9;
+}
+
+.header-middle .material-icons.search {
+  margin-left: 3px;
+  margin-top: 1px;
+}
+
+.mic {
+  margin-top: 6px;
+  margin-bottom: 5px;
+  margin-left: 6px;
+  padding-right: 3.5px;
+  border-radius: 60%;
+  background: #f5f3f3ea;
+}
+/*End header-middle of the navbar*/
+
+/*Start header-right of the navbar*/
+.header-right {
+  width: 25%;
+  padding-left: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-right .material-icons.Search {
+  position: relative;
+  left: 25%;
+  display: none;
+}
+
+.material-icons.action {
+  margin-top: 5.5%;
+}
+.material-icons.account {
+  margin-top: 4.5%;
+  font-size: xx-large;
+}
+.image img {
+  object-fit: cover;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+}
+
+.image img:hover {
+  border: 1px solid blue;
+}
+.item {
+  margin-top: 8px;
+  margin-bottom: 5px;
+  padding-left: 3px;
+  margin-left: 6px;
+  padding-right: 4px;
+  margin-right: 7%;
+}
+.image {
+  cursor: pointer;
+}
+/*End header-right of the navbar*/
+
+/*End navar*/
+
+/*Start sidebar*/
+mat-sidenav {
+  margin-top: 78px;
+  z-index: 6;
+  position: fixed;
+}
+.sidenav {
+  padding-top: 1%;
+  width: 340px;
+  height: 100%;
+  align-items: center;
+  background-color: white;
+}
+mat-nav-list {
+  padding-top: 0%;
+}
+.sidenav b {
+  font-size: large;
+  font-style: initial;
+  display: flex;
+  padding: 2% 10%;
+  color: #000000;
+}
+.sidebar-category span {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+.top.second {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.top input[name="sections"] {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
+.top section {
+  display: block;
+  outline: none;
+}
+.top span {
+  font-size: large;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+.top .material-icons {
+  font-size: xx-large;
+}
+.top section label {
+  background: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  width: 100%;
+  display: flex;
+  padding: 5% 8% 6%;
+  margin-left: 3%;
+  margin-bottom: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: linear-gradient(to right, white 50%, #d3d3d3 50%);
+  background-size: 200% 100%;
+  transition: all 0.2s ease-out;
+}
+.top input[name="sections"]:checked + label {
+  background-position: right bottom;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.top input[name="sections"]:checked + label .material-icons {
+  color: rgb(255, 0, 0);
+}
+.sidebar-category {
+  width: 100%;
+  display: flex;
+  padding: 7% 14.5%;
+  outline: none;
+  border: 0;
+}
+.top input[name="sections"]:not(:checked) + label:hover {
+  background: #f3f2f2;
+  cursor: pointer;
+}
+.sidebar-category img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+.sidebar-category span {
+  font-size: large;
+}
+/*End sidebar*/
+
+/*Bottombar start which I know will only activate on mobile*/
+.bottombar {
+  display: none;
+}
+/*End bottombar*/
+
+/*Start second-sidebar*/
+.second-sidebar {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  align-items: center;
+  z-index: 2;
+  float: right;
+  padding-top: 15px;
+  background-color: white;
+  margin-top: 81px;
+}
+.second-sidebar input[name="sections-second"] {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
+.second-sidebar section {
+  display: block;
+  outline: none;
+}
+.second-sidebar section label {
+  display: block;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  width: 97%;
+  margin-left: 3px;
+  margin-bottom: 0;
+  margin-bottom: 30px;
+}
+.second-sidebar input[name="sections-second"]:checked + label {
+  color: rgb(0, 0, 0);
+}
+.second-sidebar input[name="sections-second"]:checked + label .material-icons {
+  color: rgb(255, 0, 0);
+}
+.second-sidebar input[name="sections-second"] + label:hover {
+  background: #f3f2f2;
+  cursor: pointer;
+}
+.second-sidebar .material-icons {
+  padding: 10px 30px 0px;
+}
+.second-sidebar span {
+  padding-left: 10px;
+}
+.second-sidebar .one  {
+  padding-left: 29px;
+}
+.second-sidebar .three {
+  padding-left: 24px;
+}
+.second-sidebar .four {
+  padding-left: 27px;
+}
+/*End second-sidebar*/
+
+/*Start @media*/
+@media (max-width: 1100px) {
+  .header .material-icons {
+    font-size: 30px;
+  }
+  .header {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 960px) {
+  .second-sidebar {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .sidenav {
+    display: none;
+  }
+  .bottombar {
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2.5% 1% 4% 1%;
+    background-color: white;
+  }
+  .bottombar-category {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+  }
+  .bottombar-category .material-icons {
+    margin-top: 10%;
+  }
+  .header-right .material-icons.Search {
+    display: inline;
+  }
+  .header-middle {
+    display: none;
+  }
+  .header-right {
+    width: 50%;
+  }
+  .header-left {
+    width: 50%;
+  }
+  .header-left img {
+    margin-left: 0;
+  }
+  .header {
+    padding-left: 20px;
+  }
+  .material-icons.action {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .bottombar .material-icons {
+    font-size: 30px;
+  }
+  .bottombar span {
+    font-size: 11px;
+  }
+}
+/*End @media*/

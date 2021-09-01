@@ -1,0 +1,167 @@
+<div class="header">
+    <div class="header-left">
+        <div class="menu" (click)="drawer.toggle()" (click)="toggleMenu()">
+            <div class="bar1" [@animation1]="menu"></div>
+            <div class="bar2" [@animation2]="menu"></div>
+            <div class="bar3" [@animation3]="menu"></div>
+        </div>
+        <img src="https://i.ibb.co/KWhFzJ7/youtube-name.png" alt="image" routerLink="/home">
+    </div>
+    <div class="header-middle">
+        <input type="text" placeholder="Search">
+        <button ><i class="material-icons search">search</i></button>
+        <div class="mic">
+            <i class="material-icons mic">mic</i>
+        </div>
+    </div>
+    <div class="header-right">
+        <i class="material-icons Search">search</i>
+        <div class="item">
+        <i class="material-icons left action">video_call</i>
+    </div>
+    <div class="item">
+        <i class="material-icons action">apps</i>
+    </div>
+    <div class="item last">
+        <i class="material-icons right action">notifications</i>
+    </div>
+    <div class="image">
+        <img src="https://i.ibb.co/c3Wz48r/kisspng-google-account-google-search-customer-service-goog-login-button-5acdd8deb0ea94-8977932715234.png" alt="image">
+    </div>
+</div>
+</div>
+
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'">
+        <mat-nav-list>
+            <div class="top">
+                <section id="section1" routerLink="/home">
+                    <input type="radio" name="sections" id="option1" checked>
+                    <label for="option1"><i class="material-icons">home</i>
+                        <span>Home</span></label>
+                </section>
+                <section id="section2">
+                    <input type="radio" name="sections" id="option2">
+                    <label for="option2"><i class="material-icons">local_fire_department</i>
+                        <span>Trending</span></label>
+                </section>
+                <section id="section3">
+                    <input type="radio" name="sections" id="option3">
+                    <label for="option3"><i class="material-icons">subscriptions</i>
+                        <span>Subcriptions</span></label>
+                </section>
+            </div>
+            <hr />
+            <div class="top second">
+                <section id="section4">
+                    <input type="radio" name="sections" id="option4">
+                    <label for="option4"><i class="material-icons">history</i>
+                        <span>History</span></label>
+                </section>
+                <section id="section5">
+                    <input type="radio" name="sections" id="option5">
+                    <label for="option5"><i class="material-icons">play_arrow</i>
+                        <span>Your Videos</span></label>
+                </section>
+                <section id="section6">
+                    <input type="radio" name="sections" id="option6">
+                    <label for="option6"><i class="material-icons">watch_later</i>
+                        <span>Watch Later</span></label>
+                </section>
+                <section id="section7">
+                    <input type="radio" name="sections" id="option7">
+                    <label for="option7"><i class="material-icons">thumb_up</i>
+                        <span>Liked Videos</span></label>
+                </section>
+                <section id="section8">
+                    <input type="radio" name="sections" id="option8">
+                    <label for="option8"><i class="material-icons">local_offer</i>
+                        <span>Purchases</span></label>
+                </section>
+                <section id="section9">
+                    <input type="radio" name="sections" id="option9">
+                    <label for="option9"><i class="material-icons">playlist_play</i>
+                        <span>Anime&Manga</span></label>
+                </section>
+                <section id="section10">
+                    <input type="radio" name="sections" id="option10">
+                    <label for="option10"><i class="material-icons">playlist_play</i>
+                        <span>KOD10</span></label>
+                </section>
+            </div>
+            <hr />
+            <b>SUBSCRIPTIONS</b>
+            <div class="sidebar-categories">
+                <div class="sidebar-category">
+                    <img src="https://i.ibb.co/dtFrxps/surry.jpg" alt="image">
+                    <span>Surry</span>
+                </div>
+                <div class="sidebar-category">
+                    <img src="https://i.ibb.co/MZh7HGn/anime-icon.jpg" alt="image">
+                    <span>AnimeHypeアニメ日本</span>
+                </div>
+                <div class="sidebar-category">
+                    <img src="https://i.ibb.co/V2JT1MJ/lofi-icon.jpg" alt="image">
+                    <span>Lofi Girl</span>
+                </div>
+                <div class="sidebar-category">
+                    <img src="https://i.ibb.co/RN0vDFg/playaphonk-icon.jpg" alt="image">
+                    <span>A X S T H X T I C .</span>
+                </div>
+                <div class="sidebar-category">
+                    <img src="https://i.ibb.co/Jz9JDcC/lil-icon.jpg" alt="image">
+                    <span>Lil Nas X</span>
+                </div>
+                <div class="sidebar-category">
+                    <img src="https://i.ibb.co/JtdzCd2/Barren-Gates-icon.jpg" alt="image">
+                    <span>Barren Gates</span>
+                </div>
+                <div class="sidebar-category">
+                    <img src="https://i.ibb.co/N7x9xgM/Crunchyroll-icon.jpg" alt="image">
+                    <span>Crunchyroll Collection</span>
+                </div>
+            </div>
+        </mat-nav-list>
+    </mat-sidenav>
+    <router-outlet></router-outlet>
+</mat-sidenav-container>
+<div class="bottombar">
+    <div class="bottombar-category" routerLink="/home">
+        <i class="material-icons">home</i>
+        <span>Home</span>
+    </div>
+    <div class="bottombar-category">
+        <i class="material-icons">explore</i>
+        <span>Explore</span>
+    </div>
+    <div class="bottombar-category">
+        <i class="material-icons">subscriptions</i>
+        <span>Subscriptions</span>
+    </div>
+    <div class="bottombar-category">
+        <i class="material-icons">video_library</i>
+        <span>Collection</span>
+    </div>
+</div>
+<div class="second-sidebar" [@animation4]="menu">
+    <section id="sectionA" routerLink="/home">
+        <input type="radio" name="sections-second" id="optionA" checked>
+        <label for="optionA"><i class="material-icons">home</i>
+            <span class="one">Home</span></label>
+    </section>
+    <section id="sectionB">
+        <input type="radio" name="sections-second" id="optionB">
+        <label for="optionB"><i class="material-icons">local_fire_department</i>
+            <span class="three">Trending</span></label>
+    </section>
+    <section id="sectionC">
+        <input type="radio" name="sections-second" id="optionC">
+        <label for="optionC"><i class="material-icons">subscriptions</i>
+            <span >Subcriptions</span></label>
+    </section>
+    <section id="sectionD">
+        <input type="radio" name="sections-second" id="optionD">
+        <label for="optionD"><i class="material-icons">history</i>
+            <span class="four">History</span></label>
+    </section>
+</div>

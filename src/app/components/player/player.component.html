@@ -1,0 +1,93 @@
+<div class="row">
+    <div class="left">
+        <div class="current-video" *ngFor="let video of videos">
+            <div class="player" *ngIf="video.id == id">
+                <video id="player" playsinline controls data-poster="{{ video.poster }}">
+                    <source src="{{ video.player }}" type="video/mp4" />
+                    <track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default />
+                </video>
+            </div>
+            <div class="description" *ngIf="video.id == id">
+                <div class="header-middle">
+                    <span>{{ video.title }}</span>
+                    <div class="visual">
+                        <h4>{{ video.visual }}</h4>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <i class="material-icons">expand_more</i>
+                </div>
+            </div>
+            <div class="items" *ngIf="video.id == id">
+                <div class="like">
+                    <i class="material-icons">thumb_up_alt</i>
+                    <h4>3000</h4>
+                </div>
+                <div class="dislike">
+                    <i class="material-icons">thumb_down</i>
+                    <h4>20</h4>
+                </div>
+                <div class="share">
+                    <i class="material-icons">reply</i>
+                    <h4>Share</h4>
+                </div>
+                <div class="save">
+                    <i class="material-icons">library_add</i>
+                    <h4>Save</h4>
+                </div>
+                <div class="report">
+                    <i class="material-icons">flag</i>
+                    <h4>Report</h4>
+                </div>
+            </div>
+            <div class="hr" *ngIf="video.id == id">
+                <hr>
+            </div>
+            <div class="channel" *ngIf="video.id == id">
+                <div class="authorimg">
+                    <img src="{{ video.authorimg }}">
+                </div>
+                <div class="author">
+                    <span>{{ video.author }}</span>
+                    <div class="subscribers">
+                        <h4>{{ video.subscribers }}</h4>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <b>SUBSCRIBE</b>
+                </div>
+            </div>
+            <div class="hr" *ngIf="video.id == id">
+                <hr>
+            </div>
+        </div>
+        <div class="comments">
+            <div class="written">
+                <h4>Comments • 490</h4>
+            </div>
+            <div class="icon-comments">
+                <i class="material-icons">unfold_more</i>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="right">
+        <div class="videos">
+            <div class="video-container" *ngFor="let video of videos">
+                <div class="video-thumbnail" *ngIf="video.id != id">
+                    <img src="{{ video.poster }}" routerLink="/player/{{ video.id }}">
+                </div>
+                <div class="video-details" *ngIf="video.id != id">
+                    <div class="title">
+                        <h3>
+                            {{ video.title }}
+                        </h3>
+                        <a >{{ video.author }}</a>
+                        <span>{{ video.visual }} • {{ video.date }} </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
