@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Start videos*/
+.videos {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+  overflow: hidden;
+  padding-left: 130px;
+  padding-right: 30px;
+  margin-top: 190px;
+  z-index: -1;
+}
+.videos-container {
+  overflow: hidden;
+  justify-content:space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.video {
+  --a : 400px;
+  --b : 720px;
+  width: var(--a);
+  height: 310px;
+  margin-right: 15px;
+  margin-bottom: 80px;
+}
+.video-thumbnail {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+}
+.video-thumbnail img {
+  height: 100%;
+  width: 100%;
+}
+.author img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.video-details {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  width: calc(var(--b) - var(--a));
+}
+.title h3 {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  line-height: 18px;
+  font-size: 20px;
+  margin-bottom: 6px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.title a,
+span {
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+  font-size: 17px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.wrapper {
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  margin-top: 81px;
+  padding-top: 11px;
+  padding-left: 150px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background: rgb(255, 255, 255,0.97);
+  border-bottom: 1px solid #d3d3d3;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+.chips {
+  justify-content: center;
+  background: #f3f2f2;
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  margin-right: 13px;
+  border: 1px solid #d3d3d3;
+  cursor: pointer;
+}
+.chips span {
+  cursor: pointer;
+  font-size: x-large;
+}
+.chips:hover {
+  background: #ebe9e9;
+}
+.chips.one {
+  background: rgb(0, 0, 0);
+  color: white;
+  font-size: x-large;
+}
+.chips.one:hover {
+  background: #ff0000;
+}
+
+/*Finish videos*/
+
+/*Start @media*/
+
+@media (max-width: 990px) {
+  .video {
+    --a :  350px;
+    --b : 610px;
+  }
+  .video-thumbnail {
+    height: 220px;
+  }
+}
+@media (max-width: 960px) {
+  .wrapper {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .videos {
+    padding-left : 10px;
+    padding-right : 10px;
+  }
+}
+@media (max-width: 853px) {
+  .video {
+    --a : 320px;
+    --b : 560px;
+  }
+  .video-thumbnail {
+    height: 210px;
+  }
+}
+@media (max-width: 700px) {
+  .video {
+    --a : 250px;
+    --b : 435px;
+    margin-bottom: 20px ;
+  }
+  .video-thumbnail {
+    height: 170px;
+  }
+}
+@media (max-width: 550px) {
+  .video {
+    --a : 210px;
+    --b : 380px;
+    margin-bottom: 20px ;
+  }
+  .video-thumbnail {
+    height: 150px;
+  }
+  .author img {
+    height: 35px;
+    width: 35px;
+  }
+  .title h3,span,a {
+    font-size: 15px;
+  }
+}
+@media (max-width: 470px) {
+  .video {
+    --a : 200px;
+    --b : 340px;
+    margin-right: 0px;
+  }
+  .videos {
+    padding-left : 0px;
+    padding-right : 0px;
+  }
+}
+@media (max-width: 425px) {
+  .video {
+    --a : 100%;
+    --b : 185%;
+    height: 300px;
+  }
+  .video-thumbnail {
+    height: 210px;
+  }
+}
+/*End @media*/
