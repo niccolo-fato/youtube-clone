@@ -95,12 +95,10 @@ span {
   display: none;
 }
 .chips {
-  justify-content: center;
-  background: #f3f2f2;
+  background-color: #f8f8f8;
   display: inline-block;
   padding: 0 25px;
   height: 50px;
-  font-size: 16px;
   line-height: 50px;
   border-radius: 25px;
   margin-right: 13px;
@@ -112,21 +110,18 @@ span {
   font-size: x-large;
 }
 .chips:hover {
-  background: #ebe9e9;
+  background: #f1f0f0;
 }
 .chips.one {
   background: rgb(0, 0, 0);
-  color: white;
   font-size: x-large;
 }
-.chips.one:hover {
-  background: #ff0000;
+.chips.one span {
+  color: white;
 }
-
 /*Finish videos*/
 
 /*Start @media*/
-
 @media (max-width: 990px) {
   .video {
     --a :  350px;
@@ -201,6 +196,17 @@ span {
   }
   .video-thumbnail {
     height: 210px;
+  }
+  .wrapper {
+    height: 50px;
+    padding-top: 8px;
+  }
+  .chips {
+    height: 32px;
+    line-height: 28px;
+  }
+  .chips span {
+    font-size: large;
   }
 }
 /*End @media*/

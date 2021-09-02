@@ -3,9 +3,9 @@
   background: rgb(255, 255, 255, 0.97);
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  padding: 0 16px;
+  justify-content: space-between;
   align-items: center;
-  padding: 30px 0 40px;
   height: 82px;
   position: fixed;
   z-index: 2;
@@ -22,6 +22,7 @@
   width: 9%;
   display: flex;
   justify-content: flex-start;
+  margin-left: 28px;
 }
 .menu {
   margin-top: 6.5%;
@@ -70,7 +71,7 @@
   border-width: 0px 0px 0px 0px;
   border: 1px solid gray;
   border-left: transparent;
-  color: #f8f8f8;
+  background-color: #f8f8f8;
   padding: 0%;
   outline: none;
   border-top-right-radius: 5px;
@@ -78,7 +79,7 @@
 }
 
 .header-middle button:hover {
-  background-color: #ebe9e9;
+  background-color: #f1f0f0;
 }
 
 .header-middle .material-icons.search {
@@ -107,7 +108,8 @@
 
 .header-right .material-icons.Search {
   position: relative;
-  left: 25%;
+  left: 35%;
+  margin-top: 8px;
   display: none;
 }
 
@@ -339,7 +341,7 @@ mat-nav-list {
     display: flex;
     justify-content: space-evenly;
     padding: 2.5% 1% 4% 1%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
   .bottombar-category {
     display: flex;
@@ -357,7 +359,7 @@ mat-nav-list {
     display: none;
   }
   .header-right {
-    width: 50%;
+    width: 30%;
   }
   .header-left {
     width: 50%;
@@ -376,8 +378,23 @@ mat-nav-list {
   .bottombar .material-icons {
     font-size: 30px;
   }
+  .header {
+    padding-left: 0px;
+  }
+  .bottombar {
+    height: 50px;
+    padding-bottom: 1px;
+    padding-top: 3px;
+  }
   .bottombar span {
     font-size: 11px;
+  }
+  .bottombar .material-icons {
+    font-size: 22px ;
+  }
+  .image img {
+    height: 45px;
+    width: 45px;
   }
 }
 /*End @media*/
