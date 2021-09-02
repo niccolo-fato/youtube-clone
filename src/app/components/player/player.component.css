@@ -6,33 +6,35 @@
 
 /*Start start dimensions of the various div*/
 .row {
+  margin-top: 82px;
   width: 100%;
   height: 100%;
-  margin-left: 100px;
 }
-
 .left {
   overflow: hidden;
   position: unset;
   overflow-y: scroll;
   height: 100%;
-  width: 65%;
+  width: 100%;
   left: 0;
+  margin-left: 110px;
 }
 .right {
+  overflow: hidden;
   position: unset;
   overflow-y: scroll;
   height: 100%;
-  width: 35%;
+  width: 100%;
   right: 0;
   margin-top: 10px;
+  margin-left: 130px;
 }
 /*End start dimensions of the various div*/
 
 /*Start left side of the player*/
 video {
   margin-left: 2%;
-  width: 96%;
+  width: 100%;
 }
 
 .left::-webkit-scrollbar {
@@ -217,86 +219,92 @@ hr {
   .video-thumbnail {
     height: 155px;
   }
-  .videos a,h3,span {
+  .videos a,
+  h3,
+  span {
     font-size: small;
   }
 }
 @media (max-width: 960px) {
-  .row {
+  .left, video {
     margin-left: 0;
   }
+  .right {
+    margin-left: 10px;
+  }
 }
-  @media (max-width: 880px) {
-    video {
-      margin-top: 2%;
-    }
-  } 
-  @media (max-width: 650px) {
-    .like {
-      margin-left: 3%;
-    }
-  } 
+@media (max-width: 650px) {
+  .like {
+    margin-left: 3%;
+  }
+}
 
-  @media (max-width: 550px) {
-    .items {
-      padding-left: 0%;
-      padding-right: 7%;
-    }
+@media (max-width: 550px) {
+  .items {
+    padding-left: 0%;
+    padding-right: 7%;
   }
-  @media (max-width: 480px) {
-    .dislike {
-      margin-left: 15%;
-    }
-    .written {
-      width: 90%;
-    }
+}
+@media (max-width: 480px) {
+  .dislike {
+    margin-left: 15%;
   }
+  .written {
+    width: 90%;
+  }
+}
 
-  @media (max-width: 430px) {
-    .report {
-      margin-left: 15%;
-    }
-    .share {
-      margin-left: 15%;
-    }
-    .save {
-      margin-left: 15%;
-    }
-    .subscribe {
-      padding-top: 3.5%;
-    }
-    .video-thumbnail img {
-      width: 180px;
-      height: 65%;
-    }
-    .video-container {
-      height: 95%;
-    }
+@media (max-width: 430px) {
+  .report {
+    margin-left: 15%;
   }
-  @media (max-width: 380px) {
-    .items {
-      width: 95%;
-    }
-    .header-middle {
-      width: 90%;
-    }
-    .header-middle span {
-      font-size: large;
-    }
+  .share {
+    margin-left: 15%;
   }
-  @media (max-width: 350px) {
-    .items {
-      width: 85%;
-    }
-    .videos a,h3,span {
-      font-size: smaller;
-    }
-    .video-thumbnail img {
-      width: 170px;
-      height: 60%;
-    }
-    .video-container {
-      height: 90%;
-    }
+  .save {
+    margin-left: 15%;
   }
-  /*End @media*/
+  .subscribe {
+    padding-top: 3.5%;
+  }
+  .video-thumbnail img {
+    width: 175px;
+    height: 60%;
+  }
+  .video-container {
+    height: 95%;
+  }
+}
+@media (max-width: 380px) {
+  .items {
+    width: 95%;
+  }
+  .header-middle {
+    width: 90%;
+  }
+  .header-middle span {
+    font-size: large;
+  }
+  .video-thumbnail img {
+    width: 135px;
+    height: 55%;
+  }
+}
+@media (max-width: 350px) {
+  .items {
+    width: 85%;
+  }
+  .videos a,
+  h3,
+  span {
+    font-size: smaller;
+  }
+  .video-thumbnail img {
+    width: 170px;
+    height: 60%;
+  }
+  .video-container {
+    height: 90%;
+  }
+}
+/*End @media*/

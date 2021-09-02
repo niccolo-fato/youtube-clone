@@ -189,6 +189,9 @@ span {
   }
 }
 @media (max-width: 425px) {
+  .videos {
+    margin-top: 160px;
+  }
   .video {
     --a : 100%;
     --b : 185%;
