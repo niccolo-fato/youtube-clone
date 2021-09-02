@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class VideoService {
 
-  private apiUrl = 'https://niccolo-fato.github.io/youtube-clone/db.json/videos';
+  private apiUrl = 'https://niccolo-fato.github.io/youtube-clone/db.json';
 
   constructor(private http:HttpClient) { }
 
