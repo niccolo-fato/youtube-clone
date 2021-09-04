@@ -9,8 +9,6 @@
   margin-top: 82px;
   width: 100%;
   height: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .left {
   overflow: hidden;
@@ -30,6 +28,8 @@
   right: 0;
   margin-top: 10px;
   margin-left: 130px;
+  padding-left: 13px;
+  padding-right: 15px;
 }
 /*End start dimensions of the various div*/
 
@@ -127,6 +127,8 @@ video {
   display: flex;
   width: 98%;
   margin-left: 0.5%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .authorimg img {
   object-fit: cover;
