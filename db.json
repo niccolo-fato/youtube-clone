@@ -1,0 +1,222 @@
+[
+    {
+      "id": 1,
+      "player": "https://res.cloudinary.com/dfkowldwn/video/upload/v1625589001/guy_swims_with_monke_f3nsys_jxmk8u.mp4",
+      "title": "The legend of the water monkey",
+      "author": "Crazy monkey",
+      "authorimg": "https://i.ibb.co/jGgx0G2/monkey.jpg",
+      "poster": "https://i.ibb.co/q177BDS/idroscimmia.jpg",
+      "visual": "10M Views",
+      "date": "1 Week Ago",
+      "subscribers": "82.000 subscribers"
+    },
+    {
+      "id": 2,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572701/Chainsaw_Man_-_Official_Trailer_unhraq.mp4",
+      "title": "Chainsaw Man - Official Trailer",
+      "author": "AnimeHypeアニメ日本",
+      "authorimg": "https://i.ibb.co/MZh7HGn/anime-icon.jpg",
+      "poster": "https://i.ibb.co/s1FhgMT/anime-video.jpg",
+      "visual": "2M Views",
+      "date": "2 Week Ago",
+      "subscribers": "2 Mln subscribers"
+    },
+    {
+      "id": 3,
+      "player": "https://res.cloudinary.com/dfkowldwn/video/upload/v1625580398/Peak_Twilight_-_Departure_lofi_hip_hop_relaxing_beats_pjz3gt.mp4",
+      "title": "Peak Twilight - Departure 🗻 [lofi hip hop/relaxing beats]",
+      "author": "Lofi Girl",
+      "authorimg": "https://i.ibb.co/V2JT1MJ/lofi-icon.jpg",
+      "poster": "https://i.ibb.co/D92M2Xf/lofi-video.jpg",
+      "visual": "5M Views",
+      "date": "1 Month Ago",
+      "subscribers": "1.5 Mln subscribers"
+    },
+    {
+      "id": 4,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572700/Platinum_End_-_Official_Trailer_ijv2vr.mp4",
+      "title": "Platinum End - Official Teaser",
+      "author": "AnimeTV チェーン",
+      "authorimg": "https://i.ibb.co/Brk7Dfq/anime-Tv-icon.jpg",
+      "poster": "https://i.ibb.co/h7D8YZN/anime-Tv-video.jpg",
+      "visual": "1M Views",
+      "date": "2 Week Ago",
+      "subscribers": "500.000 subscribers"
+    },
+    {
+      "id": 5,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572711/Jimbei_Returns___One_Piece_awxlve.mp4",
+      "title": "Jimbei Returns! | One Piece",
+      "author": "Crunchyroll Collection",
+      "authorimg": "https://i.ibb.co/N7x9xgM/Crunchyroll-icon.jpg",
+      "poster": "https://i.ibb.co/KWL4tYD/Crunchryoll-video.jpg",
+      "visual": "90k Views",
+      "date": "1 Week Ago",
+      "subscribers": "3 Mln subscribers"
+    },
+    {
+      "id": 6,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572723/PlayaPhonk_-_PHONKY_TOWN_djv5lx.mp4",
+      "title": "PlayaPhonk - PHONKY TOWN",
+      "author": "A X S T H X T I C .",
+      "authorimg": "https://i.ibb.co/RN0vDFg/playaphonk-icon.jpg",
+      "poster": "https://i.ibb.co/48vn3RB/playaphonk-video.jpg",
+      "visual": "1.5M Views",
+      "date": "3 Year Ago",
+      "subscribers": "20.000 subscribers"
+    },
+    {
+      "id": 7,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572751/Berserk_-_My_Brother_Extended_Definitive_Version_.1_m5tpc8.mp4",
+      "title": "Berserk - My Brother (Extended) (Definitive Version)",
+      "author": "Unseen Phantom.",
+      "authorimg": "https://i.ibb.co/wJB4CNZ/berserk-icon.jpg",
+      "poster": "https://i.ibb.co/BPLJbSb/berserk-video.jpg",
+      "visual": "19M Views",
+      "date": "4 Year Ago",
+      "subscribers": "8323 subscribers"
+    },
+    {
+      "id": 8,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572770/Sequel_to_The_Legend_of_Zelda__Breath_of_the_Wild_-_E3_2021_Teaser_-_Nintendo_Di_ymeudu.mp4",
+      "title": "Sequel to The Legend of Zelda Breath of the Wild ",
+      "author": "Nintendo",
+      "authorimg": "https://i.ibb.co/w7nz31R/nintendo-icon.jpg",
+      "poster": "https://i.ibb.co/nDk5176/nintendo-video.jpg",
+      "visual": "19M Views",
+      "date": "1 Month Ago",
+      "subscribers": "5 Mln subscribers"
+    },
+    {
+      "id": 9,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572696/Galaxy_Tab_S7___Official_Introduction___Samsung_p9llh9.mp4",
+      "title": "Galaxy Tab S7+_ Official Introduction _ Samsung ",
+      "author": "Samsung",
+      "authorimg": "https://i.ibb.co/r6GxGd0/samsung-icon.jpg",
+      "poster": "https://i.ibb.co/qYtCGMr/samsung-video.jpg",
+      "visual": "4.5M Views",
+      "date": "1 Year Ago",
+      "subscribers": "8 Mln subscribers"
+    },
+    {
+      "id": 10,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572704/Barren_Gates_-_Devil_NCS_Lyrics_.1_l2lozm.mp4",
+      "title": "Devil",
+      "author": "Barren Gates",
+      "authorimg": "https://i.ibb.co/JtdzCd2/Barren-Gates-icon.jpg",
+      "poster": "https://i.ibb.co/8bn0v1M/barren-Gates-video.jpg",
+      "visual": "1M Views",
+      "date": "2 Year Ago",
+      "subscribers": "2.5 Mln subscribers"
+    },
+    {
+      "id": 11,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572755/Attack_on_Titan_S2_OST_-_YOUSEEBIGGIRL_T_T_Reiner_and_Berthold_transformation_t.1_jcptyv.mp4",
+      "title": "Attack on Titan S2 OST - YOUSEEBIGGIRL/T:T",
+      "author": "Hybrid Soldier",
+      "authorimg": "https://i.ibb.co/pxgQwtG/aot-icon.jpg",
+      "poster": "https://i.ibb.co/kBgVyqZ/aot-video.jpg",
+      "visual": "900K Views",
+      "date": "3 Year Ago",
+      "subscribers": "5000 subscribers"
+    },
+    {
+      "id": 12,
+      "player": ".https://res.cloudinary.com/deyy7shbp/video/upload/v1625572713/Mushoku_Tensei__Jobless_Reincarnation_-_Official_Trailer___English_Sub_ljbba0.mp4",
+      "title": "Mushoku Tensei: Jobless Reincarnation - Official Trailer",
+      "author": "AnimeHypeアニメ日本",
+      "authorimg": "https://i.ibb.co/MZh7HGn/anime-icon.jpg",
+      "poster": "https://i.ibb.co/dQZ3zqv/anime-MT-video.jpg",
+      "visual": "100K Views",
+      "date": "2 Month Ago",
+      "subscribers": "2 Mln subscribers"
+    },
+    {
+      "id": 13,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572784/The_Legend_of_Zelda__Skyward_Sword_HD_-_Overview_Trailer_-_Nintendo_Switch_gtyqvg.mp4",
+      "title": "The Legend of Zelda: Skyward Sword HD - Nintendo Switch",
+      "author": "Nintendo",
+      "authorimg": "https://i.ibb.co/w7nz31R/nintendo-icon.jpg",
+      "poster": "https://i.ibb.co/PZCJtYV/nintendo-video2.jpg",
+      "visual": "1M Views",
+      "date": "1 Month Ago",
+      "subscribers": "5 Mln subscribers"
+    },
+    {
+      "id": 14,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572725/Yami_Protect_and_Attack___Black_Clover_fvolq8.mp4",
+      "title": "Yami Protect and Attack! | Black Clover",
+      "author": "Crunchyroll Collection",
+      "authorimg": "https://i.ibb.co/N7x9xgM/Crunchyroll-icon.jpg",
+      "poster": "https://i.ibb.co/LRtF6Dw/Crunchyroll-video2.jpg",
+      "visual": "70K Views",
+      "date": " 1 Week Ago",
+      "subscribers": "3 Mln subscribers"
+    },
+    {
+      "id": 15,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572728/Galaxy_Z_Flip__Official_Launch_Film_dumpup.mp4",
+      "title": "Galaxy Z Flip: Official Launch Film",
+      "author": "Samsung",
+      "authorimg": "https://i.ibb.co/r6GxGd0/samsung-icon.jpg",
+      "poster": "https://i.ibb.co/hB0qZpC/samsung-video2.jpg",
+      "visual": "10M Views",
+      "date": " 2 Year Ago",
+      "subscribers": "8 Mln subscribers"
+    },
+    {
+      "id": 16,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572783/Sukuna_Vs_Curse_Womb_Full_Fight_-_Jujutsu_Kaisen_Epic_Fight_zk9bvh.mp4",
+      "title": "Sukuna Vs Curse Womb Full Fight - Jujutsu Kaisen",
+      "author": "Anime4All",
+      "authorimg": "https://i.ibb.co/gj02fR1/anime4all-icon.jpg",
+      "poster": "https://i.ibb.co/hsz5MB3/anime4all-video.jpg",
+      "visual": "10K Views",
+      "date": " 1 Month Ago",
+      "subscribers": "100.000 subscribers"
+    },
+    {
+      "id": 17,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572721/Persona_5_OST_-_Beneath_the_Mask_rain_.1_t7m2p2.mp4",
+      "title": "Persona 5 OST - Beneath the Mask (rain)",
+      "author": "Gage",
+      "authorimg": "https://i.ibb.co/61HFmX2/persona5-icon.jpg",
+      "poster": "https://i.ibb.co/pRSThcz/persona5-video.jpg",
+      "visual": "500K Views",
+      "date": " 5 Year Ago",
+      "subscribers": "50.000 subscribers"
+    },
+    {
+      "id": 18,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572718/Attack_on_Titan_Final_Season_Part_2_-_Official_Teaser_xq0hyu.mp4",
+      "title": "Attack on Titan Final Season Part 2 - Official Teaser",
+      "author": "AnimeTV チェーン",
+      "authorimg": "https://i.ibb.co/Brk7Dfq/anime-Tv-icon.jpg",
+      "poster": "https://i.ibb.co/09C0Csc/animetv-video2.jpg ",
+      "visual": "3M Views",
+      "date": " 1 Month Ago",
+      "subscribers": "500.000 subscribers"
+    },
+    {
+      "id": 19,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572752/Xenoblade_Chronicles__Definitive_Edition_-_Announcement_Trailer_-_Nintendo_Switc_stxsdx.mp4",
+      "title": "Xenoblade Chronicles: Definitive Edition -  Nintendo Switch",
+      "author": "Nintendo",
+      "authorimg": "https://i.ibb.co/w7nz31R/nintendo-icon.jpg",
+      "poster": "https://i.ibb.co/2ct99cv/nintendo-video3.jpg",
+      "visual": "670K Views",
+      "date": " 1 Year Ago",
+      "subscribers": "5 Mln subscribers"
+    },
+    {
+      "id": 20,
+      "player": "https://res.cloudinary.com/deyy7shbp/video/upload/v1625572736/Tokyo_Revengers_Part_2___Bloody_Halloween_Arc__-_Official_Trailer___English_Sub_ngxefc.mp4",
+      "title": "Tokyo Revengers Part 2: Bloody Halloween Arc ",
+      "author": "AnimeHypeアニメ日本",
+      "authorimg": "https://i.ibb.co/MZh7HGn/anime-icon.jpg",
+      "poster": "https://i.ibb.co/vBWfKdq/anime-video3.jpg",
+      "visual": "70K Views",
+      "date": " 2 Month Ago",
+      "subscribers": "2 Mln subscribers"
+    }
+  ]
