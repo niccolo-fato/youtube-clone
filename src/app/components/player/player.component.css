@@ -5,10 +5,12 @@
 /*Start player*/
 
 /*Start start dimensions of the various div*/
-.row {
+.container {
   margin-top: 82px;
   width: 100%;
   height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .left {
   overflow: hidden;
