@@ -231,9 +231,11 @@ hr {
   }
 }
 @media (max-width: 960px) {
-   .left, video {
-    margin-left: 0;
+   video {
     width: 100%;
+  }
+  .left {
+    margin-left: 0;
   }
   .right {
     margin-left: 10px;
