@@ -231,7 +231,7 @@ hr {
   }
 }
 @media (max-width: 960px) {
-   video {
+   .left, video {
     margin-left: 0;
     width: 100%;
   }
