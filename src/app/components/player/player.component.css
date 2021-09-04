@@ -37,7 +37,7 @@
 /*Start left side of the player*/
 video {
   margin-left: 2%;
-  max-width: 85%;
+  width: 95%;
 }
 
 .left::-webkit-scrollbar {
@@ -233,6 +233,7 @@ hr {
 @media (max-width: 960px) {
    video {
     width: 100%;
+    margin-left: 0px;
   }
   .left {
     margin-left: 0;
