@@ -13,14 +13,17 @@ import { PlayerComponent } from './components/player/player.component';
 import { HttpClientModule} from '@angular/common/http';
 import { MatTabsModule } from '@angular/material/tabs';
 import {MatTooltipModule} from '@angular/material/tooltip';
-import { MatChipsModule } from '@angular/material/chips'; 
+import { MatChipsModule } from '@angular/material/chips';
+import { BottombarComponent } from './components/bottombar/bottombar.component';
+import {MatRippleModule} from '@angular/material/core'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    PlayerComponent
+    PlayerComponent,
+    BottombarComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +36,8 @@ import { MatChipsModule } from '@angular/material/chips';
     HttpClientModule,
     MatTabsModule,
     MatTooltipModule,
-    MatChipsModule
+    MatChipsModule,
+    MatRippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
