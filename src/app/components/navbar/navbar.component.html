@@ -9,7 +9,7 @@
     </div>
     <div class="header-middle">
         <input type="text" placeholder="Search">
-        <button ><i class="material-icons search">search</i></button>
+        <button><i class="material-icons search">search</i></button>
         <div class="mic">
             <i class="material-icons mic">mic</i>
         </div>
@@ -17,18 +17,19 @@
     <div class="header-right">
         <i class="material-icons Search">search</i>
         <div class="item">
-        <i class="material-icons left action">video_call</i>
+            <i class="material-icons left action">video_call</i>
+        </div>
+        <div class="item">
+            <i class="material-icons action">apps</i>
+        </div>
+        <div class="item last">
+            <i class="material-icons right action">notifications</i>
+        </div>
+        <div class="image">
+            <img src="https://i.ibb.co/c3Wz48r/kisspng-google-account-google-search-customer-service-goog-login-button-5acdd8deb0ea94-8977932715234.png"
+                alt="image">
+        </div>
     </div>
-    <div class="item">
-        <i class="material-icons action">apps</i>
-    </div>
-    <div class="item last">
-        <i class="material-icons right action">notifications</i>
-    </div>
-    <div class="image">
-        <img src="https://i.ibb.co/c3Wz48r/kisspng-google-account-google-search-customer-service-goog-login-button-5acdd8deb0ea94-8977932715234.png" alt="image">
-    </div>
-</div>
 </div>
 
 <mat-sidenav-container class="sidenav-container">
@@ -125,24 +126,6 @@
     </mat-sidenav>
     <router-outlet></router-outlet>
 </mat-sidenav-container>
-<div class="bottombar">
-    <div class="bottombar-category" routerLink="/home">
-        <i class="material-icons">home</i>
-        <span>Home</span>
-    </div>
-    <div class="bottombar-category">
-        <i class="material-icons">explore</i>
-        <span>Explore</span>
-    </div>
-    <div class="bottombar-category">
-        <i class="material-icons">subscriptions</i>
-        <span>Subscriptions</span>
-    </div>
-    <div class="bottombar-category">
-        <i class="material-icons">video_library</i>
-        <span>Collection</span>
-    </div>
-</div>
 <div class="second-sidebar" [@animation4]="menu">
     <section id="sectionA" routerLink="/home">
         <input type="radio" name="sections-second" id="optionA" checked>
@@ -157,7 +140,7 @@
     <section id="sectionC">
         <input type="radio" name="sections-second" id="optionC">
         <label for="optionC"><i class="material-icons">subscriptions</i>
-            <span >Subcriptions</span></label>
+            <span>Subcriptions</span></label>
     </section>
     <section id="sectionD">
         <input type="radio" name="sections-second" id="optionD">

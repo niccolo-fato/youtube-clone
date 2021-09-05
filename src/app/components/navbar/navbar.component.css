@@ -144,7 +144,7 @@
 }
 /*End header-right of the navbar*/
 
-/*End navar*/
+/*End navbar*/
 
 /*Start sidebar*/
 mat-sidenav {
@@ -245,12 +245,6 @@ mat-nav-list {
 }
 /*End sidebar*/
 
-/*Bottombar start which I know will only activate on mobile*/
-.bottombar {
-  display: none;
-}
-/*End bottombar*/
-
 /*Start second-sidebar*/
 .second-sidebar {
   position: fixed;
@@ -300,7 +294,7 @@ mat-nav-list {
 .second-sidebar span {
   padding-left: 10px;
 }
-.second-sidebar .one  {
+.second-sidebar .one {
   padding-left: 29px;
 }
 .second-sidebar .three {
@@ -330,28 +324,6 @@ mat-nav-list {
   .sidenav {
     display: none;
   }
-  .bottombar {
-    display: inline;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
-    align-items: center;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2.5% 1% 4% 1%;
-    background-color: rgb(255, 255, 255);
-  }
-  .bottombar-category {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    align-items: center;
-  }
-  .bottombar-category .material-icons {
-    margin-top: 10%;
-  }
   .header-right .material-icons.Search {
     display: inline;
   }
@@ -375,22 +347,8 @@ mat-nav-list {
   }
 }
 @media (max-width: 425px) {
-  .bottombar .material-icons {
-    font-size: 30px;
-  }
   .header {
     padding-left: 0px;
-  }
-  .bottombar {
-    height: 50px;
-    padding-bottom: 1px;
-    padding-top: 3px;
-  }
-  .bottombar span {
-    font-size: 11px;
-  }
-  .bottombar .material-icons {
-    font-size: 22px ;
   }
   .image img {
     height: 45px;
