@@ -1,0 +1,48 @@
+.material-icons {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 34px;
+  }
+.bottombar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 67px;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  white-space: nowrap;
+  padding: 0 25px 0 10px;
+}
+.ripple-container {
+  margin: 8px 15px 0 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 23%;
+  height: 100%;
+}
+.ripple-container.home {
+  margin-left: 0px;
+}
+@media (max-width: 960px) {
+  .bottombar {
+    display: inline;
+  }
+}
+@media (max-width: 425px) {
+    .bottombar .material-icons {
+        font-size: 30px;
+      }
+      .bottombar {
+        height: 50px;
+        padding-bottom: 1px;
+        padding-top: 3px;
+      }
+      .bottombar span {
+        font-size: 11px;
+      }
+      .bottombar .material-icons {
+        font-size: 22px;
+      }
+}
