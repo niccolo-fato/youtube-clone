@@ -10,6 +10,7 @@
   position: fixed;
   z-index: 2;
   border-bottom: 1px solid #d3d3d3;
+  box-shadow: 0 6px 6px -6px #a5a4a4;
 }
 .material-icons {
   color: rgb(0, 0, 0);
@@ -108,7 +109,7 @@
 
 .header-right .material-icons.Search {
   position: relative;
-  left: 35%;
+  left: 45px;
   margin-top: 8px;
   display: none;
 }
@@ -335,12 +336,14 @@ mat-nav-list {
   }
   .header-left {
     width: 50%;
+    margin-left: 5px;
   }
   .header-left img {
     margin-left: 0;
   }
   .header {
     padding-left: 20px;
+    height: 70px;
   }
   .material-icons.action {
     display: none;
@@ -349,10 +352,18 @@ mat-nav-list {
 @media (max-width: 425px) {
   .header {
     padding-left: 0px;
+    height: 55px;
   }
   .image img {
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
+  }
+  .header-left img {
+    width: 100px;
+  }
+  .header-right .material-icons.Search {
+    font-size: 24px;
   }
 }
+
 /*End @media*/
