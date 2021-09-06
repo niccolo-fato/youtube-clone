@@ -1,21 +1,22 @@
 .material-icons {
     color: rgb(0, 0, 0);
     cursor: pointer;
-    font-size: 34px;
+    font-size: 30px;
   }
 .bottombar {
+  box-shadow: 0 -6px 7px -6px #888888;
   display: none;
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 67px;
+  height: 65px;
   z-index: 1000;
   background-color: rgb(255, 255, 255);
   white-space: nowrap;
   padding: 0 25px 0 10px;
 }
 .ripple-container {
-  margin: 8px 15px 0 0;
+  margin: 11px 15px 0 0;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -36,8 +37,11 @@
       }
       .bottombar {
         height: 50px;
-        padding-bottom: 1px;
-        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-top: 7.5px;
+      }
+      .ripple-container {
+        margin-top: 0;
       }
       .bottombar span {
         font-size: 11px;

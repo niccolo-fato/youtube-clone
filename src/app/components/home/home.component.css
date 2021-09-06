@@ -25,10 +25,11 @@
   flex-wrap: wrap;
 }
 .video {
-  --a : 400px;
+  /*Variables I use to give the video and title the same size*/
+  --a : 400px; 
   --b : 720px;
   width: var(--a);
-  height: 310px;
+  height: 260px;
   margin-right: 15px;
   margin-bottom: 80px;
 }
@@ -140,6 +141,9 @@ span {
     padding-left : 10px;
     padding-right : 10px;
   }
+  .wrapper {
+    margin-top: 69px;
+  }
 }
 @media (max-width: 853px) {
   .video {
@@ -154,7 +158,7 @@ span {
   .video {
     --a : 250px;
     --b : 435px;
-    margin-bottom: 20px ;
+    margin-bottom: 15px ;
   }
   .video-thumbnail {
     height: 170px;
@@ -164,7 +168,7 @@ span {
   .video {
     --a : 210px;
     --b : 380px;
-    margin-bottom: 20px ;
+    height: 240px;
   }
   .video-thumbnail {
     height: 150px;
@@ -190,12 +194,12 @@ span {
 }
 @media (max-width: 425px) {
   .videos {
-    margin-top: 160px;
+    margin-top: 120px;
   }
   .video {
     --a : 100%;
     --b : 185%;
-    height: 300px;
+    height: 285px;
   }
   .video-thumbnail {
     height: 210px;
@@ -203,6 +207,7 @@ span {
   .wrapper {
     height: 50px;
     padding-top: 8px;
+    margin-top: 54px;
   }
   .chips {
     height: 32px;
