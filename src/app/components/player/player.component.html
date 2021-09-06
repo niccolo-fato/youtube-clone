@@ -4,7 +4,7 @@
             <div class="player" *ngIf="video.id == id">
                 <video id="player" playsinline controls data-poster="{{ video.poster }}">
                     <source src="{{ video.player }}" type="video/mp4" />
-                    <track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default />
+                    <track kind="subtitles" label="English captions" src="/path/to/captions.vtt" srclang="en" default />
                 </video>
             </div>
             <div class="description" *ngIf="video.id == id">
