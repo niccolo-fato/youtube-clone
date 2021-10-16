@@ -23,7 +23,7 @@ export class PlayerComponent implements OnInit {
 
   ngOnInit(): void {
     this.getVideo();
-    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+    
   }
 
   getVideo() {
